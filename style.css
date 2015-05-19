@@ -1,0 +1,217 @@
+@charset "UTF-8";
+body {
+  background-attachment:fixed;
+  overflow:hidden;
+  background:#000;
+
+
+}
+@font-face {
+  font-family: 'itc_avant_garde_gothicmedium';
+  font-size:10px;
+  src: url('./police/avantgardemedium-webfont.eot');
+  src: url('./police/avantgardemedium-webfont.eot') format('embedded-opentype'),
+  url('./police/avantgardemedium-webfont.woff') format('woff'),
+  url('./police/avantgardemedium-webfont.ttf') format('truetype'),
+  url('./police/avantgardemedium-webfont.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+a img{
+  border:none;
+
+}
+.img_bg{
+  height:100%;
+
+}
+#bg {
+  width:100%;
+
+
+}
+h1 {
+  font-family:'itc_avant_garde_gothicmedium';
+  color:#D5D5D5;
+  font-size:12px;
+
+
+  /*the content right*/
+
+}
+.container {
+
+}
+.menu_border {
+
+  position:fixed;
+  top:0px;
+  left:0px;
+  width:20%;
+  height:100%;
+  background:url(./images/fond-actus.png);
+  z-index:50;
+  min-width:240px;
+  max-width:440px;
+}
+#logo {
+  position:fixed;
+  float:left;
+  width:20%;
+  min-width:250px;
+  top:10%;
+  left:0;
+  text-align: center;
+  z-index:300;
+
+
+
+}
+.bloc_menu {
+
+  position:fixed;
+  float:left;
+  top:27%;
+  left:0%;
+  height:35%;
+  width:133px;
+  clear:right;
+  z-index:300;
+
+}
+
+.bloc-texte {
+  font-family:'itc_avant_garde_gothicmedium';
+  color:#FFF;
+  font-size:70%;
+  padding-top:20px;
+  padding-bottom: 20px;
+  position:absolute;
+  bottom:5%;
+  padding-left: 1%;
+  padding-right:1%;
+  width:18%;
+  min-width:216px;
+  max-width:380px;
+  background:#000;
+  z-index:200;
+
+}
+#angle_bloc {
+  position:inherit;
+  padding:0;
+  margin:0;
+  bottom:-3px;
+  right:0px;
+  width:40px;
+  height:40px;
+  z-index:300
+
+}
+.player {
+  position:fixed;
+  float:right;
+  right:15px;
+  bottom:10px;
+  z-index:1;
+
+}
+
+.bouton-sociaux{
+  position:fixed;
+  float:right;
+  right:10px;
+  bottom:40px;
+  z-index:1;
+}
+#actu {
+
+  position:fixed;
+  top:0px;
+  right:0px;
+  z-index:200;
+
+  /*the content first "accueil"*/
+
+}
+#home{
+
+  position:absoluted;
+  float:left;
+  height:100%;
+  top:0px;
+  left:0px;
+
+}
+.home{
+  position:absolute;
+  float:left;
+  top:0;
+  left:0;
+  height:100%;
+
+
+
+
+  /*end of the content first "accueil" */
+  /*the content second "infos"*/
+
+}
+#info{
+
+  position:absoluted;
+  float:left;
+  height:100%;
+  top:100%;
+  left:0px;
+
+}
+.info{
+  position:absolute;
+  float:left;
+  top:100%;
+  left:0;
+  height:100%;
+
+}
+
+
+/*end of the content second "infos" */
+
+/*the content third "contact"*/
+
+#contact{
+
+  position:absoluted;
+  float:left;
+  height:100%;
+  top:0%;
+  left:0px;
+
+}
+.contact{
+  position:absolute;
+  float:left;
+  top:200%;
+  left:0;
+  height:100%;
+
+}
+#pageslide {
+  /* These styles MUST be included. Do not change. */
+  display: none;
+  position: absolute;
+  position: fixed;
+  top: 0;
+  height: 100%;
+  z-index: 200;
+
+  /* Specify the width of your pageslide here */
+  width: 20%;
+  padding: 20px;
+
+  /* These styles are optional, and describe how the pageslide will look */
+  background:url(/web/20141225151113/http://sofa-acoustic.com/images/fond-actus.png);
+
+}
